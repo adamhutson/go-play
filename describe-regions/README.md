@@ -4,7 +4,7 @@ Describes the available AWS regions.  Optional --profile cli switch.
 
 ```
 $ go build
-$ ./describe-regions --profile default | jq .
+$ ./describe-regions -profile=default | jq .
 
 {
   "Regions": [
